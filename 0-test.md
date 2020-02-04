@@ -1,7 +1,3 @@
----
-marp: true
----
-
 # 🧪 0 - Test: Software que funciona
 
 >"Nunca pidas permiso para refactorizar. Nunca pidas permiso para escribir pruebas. Haces estas cosas porque SABES que son la mejor manera de ir rápido."

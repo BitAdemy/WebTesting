@@ -64,4 +64,8 @@
 
 - [Recursos](./resources.md)
 
+---
 
+>"Los desarrolladores no tienen que justificar las pruebas y la refactorización; porque esas disciplinas aumentan la eficiencia y la productividad."
+>
+> -- ✍️ **Robert C. Martin**
