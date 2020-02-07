@@ -19,6 +19,15 @@ Estas pruebas se escriben conociendo el módulo que se va probar, en ese sentido
 
 - [Jasmine](https://jasmine.github.io/)
 
+
+---
+
+> Copy from : https://github.com/AcademiaBinaria/unit-test
+>
+> To: https://github.com/LabsAdemy/WebTesting_unit_Labs
+
+---
+
 ## Teacher Sample
 
 - [unit-highscores](https://github.com/AcademiaBinaria/unit-test/blob/master/teacher/high-scores.spec.js)

@@ -4,8 +4,7 @@
 
 - Escribe una prueba que falle. RED ❌
 - Escribe el código imprescindible para pasar la prueba. GREEN ✅
-- Mejora el código con tranquilidad. REFACTOR ✅ ✅
-
+- Mejora el código con tranquilidad. REFACTOR ♻
 ## Tools
 
 - [Jest](https://jestjs.io/)
@@ -15,6 +14,15 @@
 - [Karma](https://karma-runner.github.io/2.0/index.html)
 
 - [Jasmine](https://jasmine.github.io/)
+
+
+---
+
+> Copy from : https://github.com/AcademiaBinaria/unit-test
+>
+> To: https://github.com/LabsAdemy/WebTesting_unit_Labs
+
+---
 
 ## Teacher Sample
 
