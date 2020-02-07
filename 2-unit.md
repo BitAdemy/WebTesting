@@ -1,12 +1,16 @@
 # 2 - Unit: Pruebas unitarias
 
-**Test unitarios:**
+**Pruebas sobre el código hecho:**
 
-Prueba de unidades individuales de código, tal como **funciones o clases**, mediante el suministro de una entrada y comprobando que la salida sea la esperada.
+- Prueba de artefactos individuales de código, tal como **funciones o clases**. 🦄
 
-Las pruebas unitarias permiten comprobar que los módulos desarrollados cumplen los **requisitos funcionales**.
+- Suministra una entrada y comprueba que la salida sea la esperada. 🆗
 
-Estas pruebas se escriben conociendo el módulo que se va probar, en ese sentido son de **caja blanca**. Pero, sólo tenemos que probar la interface pública exportada; podríamos decir que son de **caja gris...**
+- Comprueba que los módulos desarrollados cumplen los **requisitos funcionales**. 👥
+
+- Se escriben conociendo el módulo que se va probar, en ese sentido son de **caja blanca**. 📖
+
+- Suele ser suficiente probar la interface pública; podríamos decir que son de **caja gris**...📓
 
 
 ## Tools
@@ -18,6 +22,13 @@ Estas pruebas se escriben conociendo el módulo que se va probar, en ese sentido
 - [Karma](https://karma-runner.github.io/2.0/index.html)
 
 - [Jasmine](https://jasmine.github.io/)
+
+
+## Install and config
+
+
+
+## Unit tests
 
 
 ---

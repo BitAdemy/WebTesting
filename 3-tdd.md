@@ -5,6 +5,7 @@
 - Escribe una prueba que falle. RED ❌
 - Escribe el código imprescindible para pasar la prueba. GREEN ✅
 - Mejora el código con tranquilidad. REFACTOR ♻
+
 ## Tools
 
 - [Jest](https://jestjs.io/)
@@ -15,6 +16,12 @@
 
 - [Jasmine](https://jasmine.github.io/)
 
+
+## Install and config
+
+
+
+## TDD tests
 
 ---
 
