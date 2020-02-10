@@ -1,36 +1,55 @@
-# 2 - Unit: Pruebas unitarias
+# 🔬 2 - Unit: Pruebas unitarias
 
-**Pruebas sobre el código hecho:**
+## Pruebas sobre el código hecho
 
-- Prueba de artefactos individuales de código, tal como **funciones o clases**. 🦄
+---
 
-- Suministra una entrada y comprueba que la salida sea la esperada. 🆗
+## 🦄 Prueba de artefactos individuales de código, tal como **funciones o clases.**
 
-- Comprueba que los módulos desarrollados cumplen los **requisitos funcionales**. 👥
+## 🆗 Suministra una entrada y comprueba que retorne **la salida o el efecto esperado.**
 
-- Se escriben conociendo el módulo que se va probar, en ese sentido son de **caja blanca**. 📖
+## 👥 Comprueba que los módulos desarrollados cumplen los **requisitos funcionales.**
 
-- Suele ser suficiente probar la interface pública; podríamos decir que son de **caja gris**...📓
+## 📖 Se escriben sobre código conocido, luego son de **caja blanca.**
 
+## 📓 Suele bastar con la interface pública; como una **caja gris.**
 
-## Tools
+---
 
-- [Jest](https://jestjs.io/)
+## 🛠 Tools
+
+### [Jest](https://jestjs.io/)
 
 ### Alternatives
 
-- [Karma](https://karma-runner.github.io/2.0/index.html)
+#### [Karma](https://karma-runner.github.io/2.0/index.html)
 
-- [Jasmine](https://jasmine.github.io/)
+#### [Jasmine](https://jasmine.github.io/)
 
+---
 
-## Install and config
+## 🚀 Install and config
 
+```bash
+yarn add -D @babel/core @babel/preset-env
+yarn add -D jest @types/jest babel-jest
+# configure babel.config.js
+# configure jest.config.js
+```
 
+```json
+// package.json
+{
+  "jest": "jest",
+  "test": "jest --watch -o",
+}
+```
 
-## Unit tests
+---
 
-> minimal hello world outline
+## 🔬 Unit tests
+
+> minimal _hello testing world_ outline
 
 ```js
 /*

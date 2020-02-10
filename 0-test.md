@@ -6,7 +6,7 @@
 
 ---
 
-## Las excusas
+## 😏 Las excusas
 
 - ❌ _Las pruebas son inútiles._
 
@@ -20,7 +20,7 @@
 
 ---
 
-## Los motivos
+## 😉 Los motivos
 
 - ✔️ **Las pruebas reducen errores.**
 
@@ -41,13 +41,13 @@
 
 ## Tipos de Pruebas
 
-### Manuales -> Programadas
+### 🤖 Manuales -> Programadas
 
 - ❌ Dependemos de las personas
 
 - ✔️ Se pueden configurar y lanzar automáticamente
 
-### Técnicas -> Funcionales
+### ⚖ Técnicas -> Funcionales
 
 - ⚪ Se puede comprobar el rendimiento, la seguridad, usabilidad...
 
@@ -55,7 +55,7 @@
 
 ---
 
-### Unitarias -> De integración -> De inicio a fin
+### 🔎 Unitarias -> De integración -> De inicio a fin
 
 - ✔️ **unitarias**: Pruebas de caja blanca que verifican una función, una clase o un componente.
 
@@ -67,7 +67,7 @@
 
 ---
 
-### Después -> Durante -> Antes
+### ⌚ Después -> Durante -> Antes
 
 - ❌ **Después** o mucho después _legacy_. Es costoso, pero imprescindible para un _refactoring_ y muy habitual en un _end to end_
 
@@ -77,7 +77,7 @@
 
 ---
 
-## Qué hay que saber para programar tests.
+## 👨‍🎓 Qué hay que saber para programar tests.
 
 ---
 ### 1️⃣ Mantra
@@ -162,7 +162,7 @@
 
 ---
 
-## Herramientas
+## 🛠 Herramientas
 
 - Utilidades para probar aplicaciones desarrolladas con tecnología web.
 
