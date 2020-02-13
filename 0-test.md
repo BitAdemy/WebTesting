@@ -104,13 +104,13 @@
 
 ### 4️⃣ Cuestiones: Given, Should, Actual, Expected.
 
-- **Given**: Texto. Condiciones de la prueba. _(Arrange)_
+- **Given**: 📃 Texto. Condiciones de la prueba. _(Arrange)_
 
-- **Should**: Texto. Funcionalidad esperada.
+- **Should**: 📃 Texto. Funcionalidad esperada.
 
-- **Actual**: Variable. El resultado obtenido. _(Act)_
+- **Actual**: 🎰 Variable. El resultado obtenido. _(Act)_
 
-- **Expected**: Variable. La respuesta esperada. _(Assert)_
+- **Expected**: 💰 Variable. La respuesta esperada. _(Assert)_
 
 ---
 
@@ -136,7 +136,7 @@
 
 - **comparación**: El valor actual es mayor o menor que el esperado.
 
-- **pertenencia**: El valor actual contiene o está contenido en el esperado .
+- **pertenencia**: El valor actual contiene o está contenido en el esperado.
 
 - **excepciones**: Se espera que una excepción sea lanzada.
 
@@ -146,19 +146,19 @@
 
 ### 7️⃣ Consejos generales
 
+- **incorpora herramientas**: Puedes empezar de cero, pero hay muchas ayudas.
+
+- **evita arreglos globales**: Cada prueba deber ser autónoma e independiente.
+
+- **datos realistas en los fakes**: Nada de _foo_ _bar_ _baz_ _asdf_
+
+- **usa etiquetas o códigos**: Útil para buscar resultados o pre filtrar pruebas.
+
 - **public black box**: Prueba los métodos públicos.
 
 - **evita los mocks**: Mejor usa _Stubs_ y _Spies_.
 
-- **datos realistas en los fakes**: Nada de _foo_ _bar_ _baz_ _asdf_
-
-- **evita arreglos globales**: Cada prueba deber ser autónoma e independiente.
-
-- **usa etiquetas o códigos**: Para buscar resultados o pre filtrar pruebas.
-
-- **incorpora herramientas**: Puedes empezar de cero, pero hay muchas ayudas.
-
-- **haz alguna prueba**: Esto no es a todo o nada.
+- **haz alguna prueba**: Esto no va de todo o nada.
 
 ---
 
@@ -185,6 +185,3 @@
 - **Jasmine** muy completo y bueno para user-behavior por su expresividad
 
 - **Mocha** muy utilizado para NodeJS.
-
-
-

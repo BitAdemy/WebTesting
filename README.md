@@ -8,10 +8,10 @@
 
 ## 🎯 Objetivos
 
-- Conocer la terminología y la filosofía de los distintos tipos de pruebas.
-- Comprobar funcionalidades con pruebas _end to end_ de aplicaciones web.
-- Refactorizar código _legacy_ con la tranquilidad de las pruebas unitarias.
-- Crear nuevo código bajo el paradigma _Test Driven Development_.
+- Conocer la **terminología** y la filosofía de los distintos tipos de pruebas.
+- Comprobar funcionalidades con pruebas **_end to end_** de aplicaciones web.
+- Refactorizar código **_legacy_** con la tranquilidad de las pruebas unitarias.
+- Crear nuevo código bajo el paradigma **_Test Driven Development_**.
 
 ## 👨‍💻 A quién va dirigido
 

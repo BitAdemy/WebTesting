@@ -1,10 +1,20 @@
-# 2 - TDD: Test Driven Development
+# 3 🧬 - TDD: Test Driven Development
 
-**Código hecho para pasar las pruebas:**
 
-- Escribe una prueba que falle. RED ❌
-- Escribe el código imprescindible para pasar la prueba. GREEN ✅
-- Mejora el código con tranquilidad. REFACTOR ♻
+## Código hecho para pasar las pruebas
+
+>"El programador es lo primero."
+>
+> -- ✍️ **El programador**
+
+---
+
+
+## ❌ Escribe una prueba que falle. RED
+## ✅ Escribe el código imprescindible para pasar la prueba. GREEN
+## ♻ Mejora el código con tranquilidad. REFACTOR
+
+---
 
 ## Tools
 
@@ -19,8 +29,24 @@
 
 ## Install and config
 
-
+Igual que en unit...
 
 ## TDD tests
 
 > minimal hello world outline
+
+### Igual que en unit... pero antes 🕰
+
+---
+
+## 📝 Laboratorio
+
+### Ejemplos y ejercicios.
+
+https://github.com/LabsAdemy/WebTesting_unit_Labs/tree/master/src/tdd
+
+> "La verdad sólo se encuentra en un lugar: el código"
+>
+> -- ✍️ **Robert C. Martin**
+
+---

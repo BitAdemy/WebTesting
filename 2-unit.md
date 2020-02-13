@@ -2,13 +2,17 @@
 
 ## Pruebas sobre el código hecho
 
+>"El código es lo primero."
+>
+> -- ✍️ **El responsable**
+
 ---
 
 ## 🦄 Prueba de artefactos individuales de código, tal como **funciones o clases.**
 
-## 🆗 Suministra una entrada y comprueba que retorne **la salida o el efecto esperado.**
+## 🆗 Envía una entrada y comprueba **la salida o el efecto esperado.**
 
-## 👥 Comprueba que los módulos desarrollados cumplen los **requisitos funcionales.**
+## 👥 Asegura que los desarrollos cumplen los **requisitos funcionales.**
 
 ## 📖 Se escriben sobre código conocido, luego son de **caja blanca.**
 
@@ -76,3 +80,16 @@ describe('GIVEN: a context', () => {
 });
 
 ```
+---
+
+## 📝 Laboratorio
+
+### Ejemplos y ejercicios.
+
+https://github.com/LabsAdemy/WebTesting_unit_Labs/tree/master/src/unit
+
+> "La verdad sólo se encuentra en un lugar: el código"
+>
+> -- ✍️ **Robert C. Martin**
+
+---
