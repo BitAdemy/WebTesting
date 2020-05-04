@@ -37,32 +37,31 @@
 
 ---
 
-## 🧪 0- TEST [Software que funciona.](./0-test.md)
+## ✅ TEST [Software que funciona.](./software-que-funciona.md)
 
-- Tipos de test
-- Filosofía y patrones
+- 🔀 [Tipos de test](./software-que-funciona.md)
+- 👨🏼‍🏫 [Filosofía y patrones](./filosofia-y-patrones.md)
 
-## 🌐 1- E2E [End to end.](./1-e2e.md)
+## 🌐 E2E [End to end.](./1-e2e.md)
 
-- Pruebas de aplicaciones web con __Cypress__ y  __Puppeteer__
-- Automatización y usos avanzados
+- 🎭 Pruebas de aplicaciones web con **Puppeteer**
+- 🤖 Automatización, web scraping y rendimiento.
 
----
+## 🧪 Pruebas funcionales
 
-## 🔬 2- Unit [Pruebas unitarias.](./2-unit.md)
+- 🌲 Pruebas funcionales web con **Cypress**
 
-- Pruebas sobre código _legacy_ con __Jest__
-- Favorecer las pruebas unitarias sobre las de integración
+- 🎪 Automatización y usos avanzados
 
-## 🧬 3- TDD [Test Driven Development.](./3-tdd.md)
+## 🔬 Unit [Pruebas unitarias.](./2-unit.md)
 
-- Desarrollo mediante pruebas.
-- Mejores resultados y mejor diseño.
+- 🏰 Pruebas sobre código _legacy_ con __Jest__
+- 🏇🏼 Probando código asíncrono
 
+## 🧬 TDD [Test Driven Development.](./3-tdd.md)
 
-### Links
-
-- [Recursos](./resources.md)
+- ♻ Red-Green-Refactor.
+- 📈 Mejores resultados y mejor diseño.
 
 ---
 

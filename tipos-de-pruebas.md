@@ -1,43 +1,16 @@
-# 🧪 0 - Test: Software que funciona
+# 🔀 Tipos de Pruebas
 
->"Nunca pidas permiso para refactorizar. Nunca pidas permiso para escribir pruebas. Haces estas cosas porque SABES que son la mejor manera de ir rápido."
+Hay una prueba para cada situación.
+
+> _"Escribe tests. No demasiados. Principalmente de integración."_
 >
-> -- ✍️ **Robert C. Martin**
+> ✍🏼 Kent C. Dodds
 
 ---
 
-## 😏 Las excusas
+Si empiezo con esta frase es para introducir la idea de que no hay un sólo tipo de test. Y dejar caer que no hay volverse locos probado código. Es mejor empezar poco a poco, pero empezar. Si ya has empezado, entonces avanza un poco más.
 
-- ❌ _Las pruebas son inútiles._
-
-- ❌ _Requieren demasiado esfuerzo._
-
-- ❌ _No dudo de mi código._
-
-- ❌ _Nadie me las pide._
-
-- ❌ _Nadie las valora._
-
----
-
-## 😉 Los motivos
-
-- ✔️ **Las pruebas reducen errores.**
-
-- ✔️ **Son menos costosas cuanto más pronto se incluyan.**
-
-- ✔️ **Si tu código es bueno, al incluir tests será aún mejor.**
-
-- ✔️ **Las pruebas te permiten dormir tranquilamente.**
-
-- ✔️ **El valor del trabajo bien hecho empieza por uno mismo.**
-
----
-
-<!-- > Dos tuits del tío Bob:
-- https://twitter.com/unclebobmartin/status/1130449247390851072?s=20
-- https://twitter.com/unclebobmartin/status/1134824807969804291?s=20 -->
-
+En cualquier caso te vendrá bien un repaso de conceptos básicos y nomenclatura.
 
 ## Tipos de Pruebas
 
@@ -53,8 +26,6 @@
 
 - ✔️ La función del software, su utilidad.
 
----
-
 ### 🔎 Unitarias -> De integración -> De inicio a fin
 
 - ✔️ **unitarias**: Pruebas de caja blanca que verifican una función, una clase o un componente.
@@ -65,8 +36,6 @@
 
 > Otras: de regresión, de humo, de aceptación...
 
----
-
 ### ⌚ Después -> Durante -> Antes
 
 - ❌ **Después** o mucho después _legacy_. Es costoso, pero imprescindible para un _refactoring_ y muy habitual en un _end to end_
@@ -75,11 +44,8 @@
 
 - ✔️ **Antes** El conocido como _TDD_ para pruebas unitarias o _BDD_ para las de integración. Menos costoso, más divertido y con mucho mejor diseño resultante.
 
----
-
 ## 👨‍🎓 Qué hay que saber para programar tests.
 
----
 ### 1️⃣ Mantra
 
 - **El código de prueba no es como el código de producción:** diséñalo para que sea simple, corto, sin abstracciones, agradable de leer. Uno debe mirar una prueba y obtener la intención al instante.
@@ -90,8 +56,6 @@
 
 - **DOCs**: _Depended On Components_. Lo que se necesita para que funcione el SUT.
 
----
-
 ### 3️⃣ Secciones: Arrange, Act & Assert (AAA Pattern)
 
 - **Arrange**: Prepara y organiza lo que necesitas.
@@ -99,8 +63,6 @@
 - **Act**: Ejecuta el código y obtén una respuesta.
 
 - **Assert**: Verifica que la respuesta es la esperada.
-
----
 
 ### 4️⃣ Cuestiones: Given, Should, Actual, Expected.
 
@@ -111,8 +73,6 @@
 - **Actual**: 🎰 Variable. El resultado obtenido. _(Act)_
 
 - **Expected**: 💰 Variable. La respuesta esperada. _(Assert)_
-
----
 
 ### 5️⃣ Test Doubles: Simuladores para no depender de las dependencias DOC.
 
@@ -125,8 +85,6 @@
 - **Spy**: Cuenta las llamadas a una función o método. _(Comprobar que se ejecuta una acción un determinado número de veces)_
 
 - **Mock**: Monitoriza el uso de un objeto y las llamadas a una función junto con sus argumentos. _(Simular un envío de correo completo)_
-
----
 
 ### 6️⃣ Comprobaciones: igualdad, existencia, comparación, pertenencia, excepciones y negación
 
@@ -141,8 +99,6 @@
 - **excepciones**: Se espera que una excepción sea lanzada.
 
 - **negación**: Niega cualquiera de los anteriores.
-
----
 
 ### 7️⃣ Consejos generales
 
@@ -160,28 +116,30 @@
 
 - **haz alguna prueba**: Esto no va de todo o nada.
 
----
-
 ## 🛠 Herramientas
 
 - Utilidades para probar aplicaciones desarrolladas con tecnología web.
 
+### Puppeteer
+
+[Puppeteer](https://pptr.dev/) es excelente para manipular y simular cualquier actividad con el navegador ideal para _e2e_ no funcional.
+
 ### Cypress
 
-[Cypress](https://www.cypress.io/) es un framework de pruebas _e2e_ que prácticamente se ejecuta en el navegador independiente del código bajo prueba.
+[Cypress](https://www.cypress.io/) es un framework de pruebas funcionales de integración o _e2e_. Se ejecuta en el navegador independiente del código bajo prueba.
 
 ### Jest
 
-[JEST](https://jestjs.io/) es un framework muy popular porque requiere _zero configuration_. Es muy ligero y sencillo. Ideal para _TDD_.
-
----
+[JEST](https://jestjs.io/) es un framework muy popular porque requiere _zero configuration_. Es muy ligero y sencillo. Ideal para _unit testing_ y _TDD_.
 
 ### Otros
 
-- **Puppeteer** es excelente para manipular y simular cualquier actividad con el navegador.
+- **[Playwright](https://github.com/microsoft/playwright)** automatizador de diversos navegadores al estilo Puppeteer.
 
-- **Karma** es un ejecutador de pruebas muy interesante para integración continua.
+- **[Karma](https://karma-runner.github.io/latest/index.html)** es un ejecutador de pruebas muy interesante para integración continua.
 
-- **Jasmine** muy completo y bueno para user-behavior por su expresividad
+- **[Jasmine](https://jasmine.github.io/)** muy completo y bueno para user-behavior por su expresividad
 
-- **Mocha** muy utilizado para NodeJS.
+- **[Mocha](https://mochajs.org/)** muy utilizado para NodeJS.
+
+- **[Chai](https://www.chaijs.com/)** librería muy adecuada para BDD con NodeJS.
