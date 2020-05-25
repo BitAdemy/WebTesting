@@ -1,7 +1,3 @@
----
-marp: true
----
-
 # ✅ Test, Software que funciona
 
 El código se escribe para resolver un problema. El test es su garantía.

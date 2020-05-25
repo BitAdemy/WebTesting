@@ -1,8 +1,4 @@
----
-marp: true
----
-
-# Web Testing
+# 🧪 Web Testing
 
 >"Codifica como si la persona que mantendrá tu código fuera un psicópata violento que sabe dónde vives."
 >

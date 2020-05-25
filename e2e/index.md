@@ -1,8 +1,4 @@
----
-marp: true
----
-
-# E2E Pruebas externas de principio a fin
+# 🌐 E2E Pruebas externas de principio a fin
 ##   Puppeteer para comprobación de existencia, navegación, tamaño, velocidad y otras métricas.
 
 > _"Si un usuario final percibe una mal rendimiento en tu website, su siguiente click probablemente sea en tu-competencia.com"_

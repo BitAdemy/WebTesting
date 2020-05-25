@@ -1,8 +1,4 @@
----
-marp: true
----
-
-# 🎭 Pruebas de aplicaciones web con Puppeteer---
+# 🎭 Pruebas de aplicaciones web con Puppeteer
 
 ## Puppeteer para comprobación de existencia, navegación, tamaño, velocidad y otras métricas.
 
@@ -29,6 +25,15 @@ marp: true
 - Con los comandos `assert` propios de Node.
 
 - Estructura con la _triple A_ **Arrange-Act-Assert**.
+
+```json
+  "dependencies": {
+    "lighthouse": "^6.0.0",
+    "puppeteer": "^3.1.0",
+    "request": "^2.88.2"
+  },
+```
+
 ---
 
 ### Arrange
@@ -73,7 +78,7 @@ module.exports = async function itShouldExist(pagePuppet) {
 
 ### _Given, when, then_.
 
-```
+```js
 async function itShouldHaveTitle(pagePuppet) {
   console.info(`GIVEN a page`);
   const expected = 'bitAdemy';
@@ -155,7 +160,7 @@ async function afterAll(browser, numErrors) {
 
 ---
 
-Un ejemplo de suscripción a una newslwetter
+Un ejemplo de suscripción a una newsletter
 
 ```js
 module.exports = async function itShouldAllowSubscribe(pagePuppet) {
@@ -200,8 +205,8 @@ async function actClick(pagePuppet, selector) {
 
 ### Imagen
 
-- **capturar instantáneas y guardarlas**
-- **distintas resoluciones o simuladores de dispositivos**.
+- Capturar instantáneas y guardarlas
+- Distintas resoluciones o simuladores de dispositivos.
 
 
 ```js
@@ -215,6 +220,7 @@ module.exports = async function takeScreenshot(pagePuppet) {
 };
 ```
 
---
+---
+
 
 > En [el laboratorio](https://github.com/LabsAdemy/WebTesting_e2e-puppeteer_Labs) tienes más ejemplos de lo que es capaz _Puppeteer_. Y si aún quieres más puede mirar este otro repositorio aún más completo [AtomicBuilders/muon](https://github.com/AtomicBuilders/muon)

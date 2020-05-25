@@ -1,7 +1,3 @@
----
-marp: true
----
-
 # 🔀 Tipos de Pruebas
 
 Hay una prueba para cada situación.

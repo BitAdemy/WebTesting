@@ -1,8 +1,3 @@
----
-marp: true
----
-
-
 # 🚢 Pruebas de rendimiento web con Lighthouse
 
 ## Lighthouse para comprobación tamaño, velocidad, SEO y otras métricas.
@@ -93,7 +88,7 @@ module.exports = async function itShouldBeFast() {
 
 ### After
 
-Al acabar tus pruebas deberías liberar los recursos, que3 en este caso es simplemente desconectar y cerrar la instancia de _chrome_
+Al acabar tus pruebas deberías liberar los recursos, que en este caso es simplemente desconectar y cerrar la instancia de _chrome_
 
 ```js
 async function afterAll({ chrome, browser }) {
