@@ -100,3 +100,12 @@ marp: true
 >"Los desarrolladores no tienen que justificar las pruebas y la refactorización; porque esas disciplinas aumentan su eficiencia y su productividad."
 >
 > -- ✍️ **Robert C. Martin**
+---
+
+<!-- [![bit_ademy](./assets/bit_ademy.png)](https://bitademy.com) -->
+ [![vitae](./assets/vitae.png)](https://vitaedigital.com)
+
+
+✍️ **Alberto Basalo**
+
+## Online Mayo 2020

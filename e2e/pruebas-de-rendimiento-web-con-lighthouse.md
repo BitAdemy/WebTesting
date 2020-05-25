@@ -113,3 +113,13 @@ Empezar en el mundo de las pruebas de las aplicaciones web
 Comprobar que las páginas respondan rápido **es rentable**.
 
 Después garantizar que son correctas.
+
+---
+
+<!-- [![bit_ademy](../assets/bit_ademy.png)](https://bitademy.com) -->
+ [![vitae](../assets/vitae.png)](https://vitaedigital.com)
+
+
+✍️ **Alberto Basalo**
+
+## Online Mayo 2020
