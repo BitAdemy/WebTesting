@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # 🔀 Tipos de Pruebas
 
 Hay una prueba para cada situación.
@@ -8,10 +12,6 @@ Hay una prueba para cada situación.
 
 ---
 
-Si empiezo con esta frase es para introducir la idea de que no hay un sólo tipo de test. Y dejar caer que no hay volverse locos probado código. Es mejor empezar poco a poco, pero empezar. Si ya has empezado, entonces avanza un poco más.
-
-En cualquier caso te vendrá bien un repaso de conceptos básicos y nomenclatura.
-
 ## Tipos de Pruebas
 
 ### 🤖 Manuales -> Programadas
@@ -20,11 +20,15 @@ En cualquier caso te vendrá bien un repaso de conceptos básicos y nomenclatura
 
 - ✔️ Se pueden configurar y lanzar automáticamente
 
+---
+
 ### ⚖ Técnicas -> Funcionales
 
 - ⚪ Se puede comprobar el rendimiento, la seguridad, usabilidad...
 
 - ✔️ La función del software, su utilidad.
+
+---
 
 ### 🔎 Unitarias -> De integración -> De inicio a fin
 
@@ -36,6 +40,8 @@ En cualquier caso te vendrá bien un repaso de conceptos básicos y nomenclatura
 
 > Otras: de regresión, de humo, de aceptación...
 
+---
+
 ### ⌚ Después -> Durante -> Antes
 
 - ❌ **Después** o mucho después _legacy_. Es costoso, pero imprescindible para un _refactoring_ y muy habitual en un _end to end_
@@ -44,17 +50,23 @@ En cualquier caso te vendrá bien un repaso de conceptos básicos y nomenclatura
 
 - ✔️ **Antes** El conocido como _TDD_ para pruebas unitarias o _BDD_ para las de integración. Menos costoso, más divertido y con mucho mejor diseño resultante.
 
+---
+
 ## 👨‍🎓 Qué hay que saber para programar tests.
 
 ### 1️⃣ Mantra
 
 - **El código de prueba no es como el código de producción:** diséñalo para que sea simple, corto, sin abstracciones, agradable de leer. Uno debe mirar una prueba y obtener la intención al instante.
 
+---
+
 ### 2️⃣ Siglas y conceptos
 
 - **SUT**: _System (Subject) Under Test_. Lo que se está probando.
 
 - **DOCs**: _Depended On Components_. Lo que se necesita para que funcione el SUT.
+
+---
 
 ### 3️⃣ Secciones: Arrange, Act & Assert (AAA Pattern)
 
@@ -63,6 +75,8 @@ En cualquier caso te vendrá bien un repaso de conceptos básicos y nomenclatura
 - **Act**: Ejecuta el código y obtén una respuesta.
 
 - **Assert**: Verifica que la respuesta es la esperada.
+
+---
 
 ### 4️⃣ Cuestiones: Given, Should, Actual, Expected.
 
@@ -73,6 +87,8 @@ En cualquier caso te vendrá bien un repaso de conceptos básicos y nomenclatura
 - **Actual**: 🎰 Variable. El resultado obtenido. _(Act)_
 
 - **Expected**: 💰 Variable. La respuesta esperada. _(Assert)_
+
+---
 
 ### 5️⃣ Test Doubles: Simuladores para no depender de las dependencias DOC.
 
@@ -85,6 +101,8 @@ En cualquier caso te vendrá bien un repaso de conceptos básicos y nomenclatura
 - **Spy**: Cuenta las llamadas a una función o método. _(Comprobar que se ejecuta una acción un determinado número de veces)_
 
 - **Mock**: Monitoriza el uso de un objeto y las llamadas a una función junto con sus argumentos. _(Simular un envío de correo completo)_
+
+---
 
 ### 6️⃣ Comprobaciones: igualdad, existencia, comparación, pertenencia, excepciones y negación
 
@@ -99,6 +117,8 @@ En cualquier caso te vendrá bien un repaso de conceptos básicos y nomenclatura
 - **excepciones**: Se espera que una excepción sea lanzada.
 
 - **negación**: Niega cualquiera de los anteriores.
+
+---
 
 ### 7️⃣ Consejos generales
 
@@ -116,9 +136,11 @@ En cualquier caso te vendrá bien un repaso de conceptos básicos y nomenclatura
 
 - **haz alguna prueba**: Esto no va de todo o nada.
 
+---
+
 ## 🛠 Herramientas
 
-- Utilidades para probar aplicaciones desarrolladas con tecnología web.
+Utilidades para probar aplicaciones desarrolladas con tecnología web.
 
 ### Puppeteer
 
@@ -131,6 +153,8 @@ En cualquier caso te vendrá bien un repaso de conceptos básicos y nomenclatura
 ### Jest
 
 [JEST](https://jestjs.io/) es un framework muy popular porque requiere _zero configuration_. Es muy ligero y sencillo. Ideal para _unit testing_ y _TDD_.
+
+---
 
 ### Otros
 

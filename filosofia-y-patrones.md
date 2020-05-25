@@ -2,15 +2,21 @@
 
 Qué hay que saber para programar tests.
 
+---
+
 ### 1️⃣ Mantra
 
 - **El código de prueba no es como el código de producción:** diséñalo para que sea simple, corto, sin abstracciones, agradable de leer. Uno debe mirar una prueba y obtener la intención al instante.
+
+---
 
 ### 2️⃣ Siglas y conceptos
 
 - **SUT**: _System (Subject) Under Test_. Lo que se está probando.
 
 - **DOCs**: _Depended On Components_. Lo que se necesita para que funcione el SUT.
+
+---
 
 ### 3️⃣ Secciones: Arrange, Act & Assert (AAA Pattern)
 
@@ -19,6 +25,8 @@ Qué hay que saber para programar tests.
 - **Act**: Ejecuta el código y obtén una respuesta.
 
 - **Assert**: Verifica que la respuesta es la esperada.
+
+---
 
 ### 4️⃣ Cuestiones: Given, Should, Actual, Expected.
 
@@ -29,6 +37,8 @@ Qué hay que saber para programar tests.
 - **Actual**: 🎰 Variable. El resultado obtenido. _(Act)_
 
 - **Expected**: 💰 Variable. La respuesta esperada. _(Assert)_
+
+---
 
 ### 5️⃣ Test Doubles: Simuladores para no depender de las dependencias DOC.
 
@@ -41,6 +51,8 @@ Qué hay que saber para programar tests.
 - **Spy**: Cuenta las llamadas a una función o método. _(Comprobar que se ejecuta una acción un determinado número de veces)_
 
 - **Mock**: Monitoriza el uso de un objeto y las llamadas a una función junto con sus argumentos. _(Simular un envío de correo completo)_
+
+---
 
 ### 6️⃣ Comprobaciones: igualdad, existencia, comparación, pertenencia, excepciones y negación
 
@@ -55,6 +67,8 @@ Qué hay que saber para programar tests.
 - **excepciones**: Se espera que una excepción sea lanzada.
 
 - **negación**: Niega cualquiera de los anteriores.
+
+---
 
 ### 7️⃣ Consejos generales
 

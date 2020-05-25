@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # ✅ Test, Software que funciona
 
 El código se escribe para resolver un problema. El test es su garantía.
@@ -21,6 +25,8 @@ El código se escribe para resolver un problema. El test es su garantía.
 
 - ❌ _Nadie las valora._
 
+---
+
 ## 😉 Los motivos
 
 - ✔️ **Las pruebas reducen errores.**
@@ -32,6 +38,8 @@ El código se escribe para resolver un problema. El test es su garantía.
 - ✔️ **Las pruebas te permiten dormir tranquilamente.**
 
 - ✔️ **El valor del trabajo bien hecho empieza por uno mismo.**
+
+---
 
 > Dos tuits del tío Bob:
 

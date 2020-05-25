@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # Web Testing
 
 >"Codifica como si la persona que mantendrá tu código fuera un psicópata violento que sabe dónde vives."
@@ -18,10 +22,27 @@
 - Programadores de aplicaciones con experiencia.
 - Idealmente conocimientos de tecnología web: HTML y JavaScript.
 
+---
+
 ## 💻 Material necesario
 
 - Editor de código y navegador modernos. Recomendados _VSCode_ y _Chrome_
 - _Node_ versión 12 y capacidad para instalar paquetes desde _npm_
+
+
+### 🔗 Enlaces
+
+#### Laboratorios
+
+- [E2E Puppeteer](https://github.com/LabsAdemy/WebTesting_e2e-puppeteer_Labs)
+
+- [E2E Cypress](https://github.com/LabsAdemy/WebTesting_e2e-functional_cypress_Labs)
+
+- [Unit Jest](https://github.com/LabsAdemy/WebTesting_unit_Labs/tree/master/src/unit)
+
+- [TDD Jest](https://github.com/LabsAdemy/WebTesting_unit_Labs/tree/master/src/tdd)
+
+#### [Tutorial Documentación](https://www.bitademy.com/tutorial/web-testing/contenido/)
 
 ---
 
@@ -37,34 +58,45 @@
 
 ---
 
-## ✅ TEST [Software que funciona.](./software-que-funciona.md)
+### ✅ [TEST Software que funciona.](https://www.bitademy.com/tutorial/web-testing/software-que-funciona)
 
-- 🔀 [Tipos de test](./software-que-funciona.md)
-- 👨🏼‍🏫 [Filosofía y patrones](./filosofia-y-patrones.md)
+#### 🔀 [Tipos de test](https://www.bitademy.com/tutorial/web-testing/tipos-de-pruebas)
 
-## 🌐 E2E [End to end.](./1-e2e.md)
-
-- 🎭 Pruebas de aplicaciones web con **Puppeteer**
-- 🤖 Automatización, web scraping y rendimiento.
-
-## 🧪 Pruebas funcionales
-
-- 🌲 Pruebas funcionales web con **Cypress**
-
-- 🎪 Automatización y usos avanzados
-
-## 🔬 Unit [Pruebas unitarias.](./2-unit.md)
-
-- 🏰 Pruebas sobre código _legacy_ con __Jest__
-- 🏇🏼 Probando código asíncrono
-
-## 🧬 TDD [Test Driven Development.](./3-tdd.md)
-
-- ♻ Red-Green-Refactor.
-- 📈 Mejores resultados y mejor diseño.
+#### 👨🏼‍🏫 [Filosofía y patrones](https://www.bitademy.com/tutorial/web-testing/filosofia-y-patrones)
 
 ---
 
->"Los desarrolladores no tienen que justificar las pruebas y la refactorización; porque esas disciplinas aumentan la eficiencia y la productividad."
+### 🌐 E2E: [Pruebas externas de principio a fin.](https://www.bitademy.com/tutorial/web-testing/e2e)
+
+#### 🎭 [Pruebas de aplicaciones web con **Puppeteer**](https://www.bitademy.com/tutorial/web-testing/e2e/pruebas-de-aplicaciones-web-con-puppeteer)
+
+#### 🤖 [Pruebas de rendimiento web con **Lighthouse**](https://www.bitademy.com/tutorial/web-testing/e2e/pruebas-de-rendimiento-web-con-lighthouse)
+
+---
+
+### 🌲 [Pruebas funcionales con **Cypress**](https://www.bitademy.com/tutorial/web-testing/functional)
+
+#### 🎪 [Pruebas de comportamiento](https://www.bitademy.com/tutorial/web-testing/functional/pruebas-de-comportamiento)
+
+#### 🧪 [Limpieza de pruebas](https://www.bitademy.com/tutorial/web-testing/functional/limpieza-de-pruebas)
+
+---
+
+### 🔬 [Pruebas unitarias con **Jest**](https://www.bitademy.com/tutorial/web-testing/unit)
+
+#### 🕵🏼‍♂️ [Pruebas con espías y dobles](https://www.bitademy.com/tutorial/web-testing/unit/pruebas-con-espias-y-dobles)
+
+#### 🏇🏼 [Pruebas de código asíncrono](https://www.bitademy.com/tutorial/web-testing/unit/pruebas-de-codigo-asincrono)
+
+---
+
+### 🧬 [TDD: desarrollo guiado por las pruebas](https://www.bitademy.com/tutorial/web-testing/tdd)
+
+#### 📈 [Mejores resultados y mejor diseño.](https://www.bitademy.com/tutorial/web-testing/tdd/mejores-resultados-y-mejor-diseno)
+
+
+---
+
+>"Los desarrolladores no tienen que justificar las pruebas y la refactorización; porque esas disciplinas aumentan su eficiencia y su productividad."
 >
 > -- ✍️ **Robert C. Martin**
