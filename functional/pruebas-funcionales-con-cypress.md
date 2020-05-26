@@ -1,7 +1,3 @@
----
-marp: true
----
-
 # 🌲 Pruebas funcionales con Cypress
 ##   Cypress para comprobación funcional interactiva.
 
@@ -11,9 +7,9 @@ marp: true
 
 ---
 
-### calidad es que algo funcione conforme a lo esperado
+### **Calidad** es que algo funcione conforme a lo esperado
 
-### sencillo, cómodo y agradable para ser un hábito
+### Sencillo, cómodo y agradable para ser un **hábito**
 
 ---
 
@@ -58,7 +54,7 @@ describe('Funcionalidad que se pretende probar', () => {
   });
 });
 ```
-> **Presta atención al texto** que reciben en el primer parámetro como al código que se ejecutará.
+> **Presta atención al texto** del primer parámetro .
 
 ---
 
@@ -80,8 +76,8 @@ cy.title().should('include', 'bitAdemy');
 ```
 {
   "scripts": {
-    "test:e2e": "cypress open",
-    "start": "cypress open"
+    "start": "cypress open",
+    "test": "cypress run",
   }
 }
 ```
@@ -114,9 +110,11 @@ Selecciona el `0.0_hello-world` y disfruta.
 
 Ejemplo en `cypress\integration\examples\0.1_hello-world.spec.js`
 
-Prueba las acciones más comunes como el simular clicks, navegar entre páginas, rellenar formularios... y comprobar contenidos.
+Acciones comunes: clicks, navegar entre páginas, rellenar formularios... y comprobar contenidos.
 
-De los textos que se incluyen en las funciones se deduce claramente **la intención del desarrollador**. Es un caso dónde la documentación forma parte del programa. **No es un comentario, es un dato.**
+Textos que deduce claramente **la intención del desarrollador**.
+
+La documentación forma parte del programa. **No es un comentario, es un dato.**
 
 ---
 
@@ -124,7 +122,7 @@ De los textos que se incluyen en las funciones se deduce claramente **la intenci
 
 _before beforeAll, after y afterAll_ ejecutan la función que reciben como _callback_ en los momentos adecuados. Sus nombres no dejan lugar a dudas.
 
-No reciben textos informativos. Si quieres dejar rastro tienes que escribir en la consola o en un log. Si se complican es muy recomendable extraer funcionalidad a funciones con nombre.
+**No reciben textos informativos.** Si quieres dejar rastro tienes que escribir en la consola o en un log. Si se complican es muy recomendable extraer funcionalidad a funciones con nombre.
 
 
-Vamos [al laboratorio](https://github.com/LabsAdemy/WebTesting_e2e-functional_cypress_Labs)
+Asegúrate de probarlo [en el laboratorio](https://github.com/LabsAdemy/WebTesting_e2e-functional_cypress_Labs)

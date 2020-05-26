@@ -1,7 +1,3 @@
----
-marp: true
----
-
 # 🎪 Pruebas de comportamiento
 ## Cypress y Behavior Driven Development.
 
@@ -12,11 +8,11 @@ marp: true
 ---
 
 
-- agrupar y gestionar mejor las pruebas de comportamiento.
+- Agrupar y gestionar mejor las pruebas de comportamiento.
 
- -**convenios de nombrado**
+- **Convenios de nombrado**
 
- - además de testear, documentar la funcionalidad de la aplicación.
+- Además de testear, documentar la funcionalidad de la aplicación.
 
 ---
 
@@ -24,9 +20,9 @@ marp: true
 
 - **historia de usuario**: funcionalidad que resuelve un problema.
 
-- Formalmente los practicantes de metodologías _Agile_ lo llaman **behavior-driven development (BDD)**.
+- Formalmente en _Agile_ lo llaman **behavior-driven development (BDD)**.
 
-> **estructura y documenta muy bien tus pruebas funcionales**.
+> **Estructura y documenta muy bien tus pruebas funcionales**.
 
 ---
 
@@ -37,7 +33,7 @@ marp: true
 - la razón (**por qué**)
 
 ```yaml
-FEATURE: have web site with courses and a subscribing form
+FEATURE: have a web site with courses and a subscribing form
 As a: visitor
 I want to: view, navigate and subscribe
 In order to: get information and be notified
@@ -48,12 +44,6 @@ In order to: get information and be notified
 ## Comportamiento
 
 Se plantea un escenario, se simula la interacción del usuario y se comprueba el resultado esperado.
-
-### Arrange, Act, Assert
-
-_AAA o **la triple A**_: _Arrange, Act, Assert_ que se traducen como: **preparar, actuar y comprobar**.
-
----
 
 #### Context
 
@@ -68,6 +58,9 @@ describe('Funcionalidad que se pretende probar', () => {
 ```
 
 ---
+### Arrange, Act, Assert
+
+_AAA o **la triple A**_: _Arrange, Act, Assert_ que se traducen como: **preparar, actuar y comprobar**.
 
 ```js
 describe('Visiting the url https://www.bitademy.com', () => {
@@ -130,43 +123,17 @@ describe('GIVEN: the url https://www.bitademy.com', () => {
 
 ## Resumen
 
-Pon **un poco de orden y una guía para no reinventar la rueda**.
+**Orden y guía para no reinventar la rueda**.
 
-**tabla para organizar y documentar tus pruebas**.
+> tabla para organizar y documentar tus pruebas.
 
-<table>
-  <thead>
-    <tr>
-      <th>Organización</th>
-      <th>Documentación</th>
-      <th>Implementación</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Arrange</td>
-      <td>GIVEN:</td>
-      <td>`describe()`</td>
-    </tr>
-    <tr>
-      <td>Act</td>
-      <td>WHEN:</td>
-      <td>`context() before()`</td>
-    </tr>
-    <tr>
-      <td>Assert</td>
-      <td>THEN:</td>
-      <td>`it()`</td>
-    </tr>
-    <tr>
-      <td>After</td>
-      <td></td>
-      <td>`after()`</td>
-    </tr>
-  </tbody>
-  <tfoot>
-  </tfoot>
-</table>
+|Organización|Documentación|Implementación|
+|--- |--- |--- |
+|Arrange|GIVEN:|`describe()`|
+|Act|WHEN:|`context() before()`|
+|Assert|THEN:|`it()`|
+|After||`after()`|
+
 
 ---
 

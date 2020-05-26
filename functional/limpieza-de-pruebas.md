@@ -1,7 +1,3 @@
----
-marp: true
----
-
 # 🧪 Limpieza de pruebas
 ##  Los tests son código. Deben ser lo más explícitos y claros posible.
 > _"La duplicidad es más barata que la mala abstracción"_
@@ -10,13 +6,13 @@ marp: true
 
 ---
 
-**prestar atención al código de las pruebas** para saltarnos lo menos posible los principios del código limpio.
+**Prestar atención al código de las pruebas**
 
-Se dice que **el código de las pruebas debe ser muy sencillo**, que cualquiera lo entienda a primera vista.
+**El código de las pruebas debe ser muy sencillo**
 
 **Las pruebas son código, y el código ha de estar limpio.**
 
-Podríamos permitirles _ciertas licencias_. Pero otras rotundamente no:
+Podríamos permitirles _ciertas licencias_. Pero otras rotundamente no.
 
 ---
 
@@ -24,8 +20,7 @@ Podríamos permitirles _ciertas licencias_. Pero otras rotundamente no:
 
 ### Comentarios
 
-**aclarar en código la intención de la prueba**. No hacen falta más comentarios.
-
+**aclarar en código la intención de la prueba**.
 Excepción: historia de usuario.
 
 ### Datos mágicos
@@ -67,7 +62,9 @@ El principio **DRY (Don´t Repeat Yourself)** asegura que **"La duplicidad es el
 
 #### WET
 
-Por contra tampoco es práctico caer en el **WET (Write Everything Twice)**. Incluso afecta a la moral del equipo verse **repitiendo, copiando y pegando, siempre el mismo código**. Hay que buscar un equilibrio.
+No es práctico caer en el **WET (Write Everything Twice)**.
+
+Incluso afecta a la moral del equipo verse **repitiendo, copiando y pegando, siempre el mismo código**.
 
 ---
 
@@ -77,7 +74,7 @@ Por contra tampoco es práctico caer en el **WET (Write Everything Twice)**. Inc
 
 > el código es más entendible cuanto mejor nombrado esté.
 
-los frameworks y los programadores cumplimos al rellenar las cadenas de cada `describe('')` y de cada `it('')`
+Los frameworks y los programadores lo cumplimos al rellenar las cadenas de cada `describe('')` y de cada `it('')`
 
 ---
 
@@ -231,9 +228,9 @@ typeText(selector, text);
 
 #### Scripts
 
-**presencialmente** ejecutar las pruebas mientras desarrolla, o antes, si es un _TDD practitioner_.
+**Presencial:** ejecutar las pruebas mientras desarrolla, o antes, si es un _TDD practitioner_.
 
-**desatendida** en modo consola, **integración continua** con videos, fotos y reportes.
+**Desatendida:** en modo consola, **integración continua** con videos, fotos y reportes.
 
 ```json
   "scripts": {
