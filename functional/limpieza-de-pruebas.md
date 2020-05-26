@@ -241,4 +241,24 @@ typeText(selector, text);
 
 ---
 
+### Reporters
+
+`yarn add -D mocha mochawesome`
+
+```json
+  "video": true,
+  "screenshotOnRunFailure": true,
+  "trashAssetsBeforeRuns": true,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "charts": false,
+    "html": true,
+    "json": true,
+    "reportDir": "cypress/reports",
+    "reportFilename": "report",
+    "overwrite": false
+  }
+```
+
+---
 > En definitiva, las pruebas son código y merecen un respeto. _Cypress_ te ofrece lo necesario para que sean fáciles de entender y mantener.
