@@ -1,7 +1,3 @@
----
-marp: true
----
-
 # 🧬 TDD, desarrollo guiado por las pruebas
 
 ## Todo empieza definiendo una prueba.

@@ -1,8 +1,3 @@
----
-marp: true
----
-
-
 # 📈 Mejores resultados y mejor diseño
 
 ##  Hacer las pruebas antes mejora el código de después.
