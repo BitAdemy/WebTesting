@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # 👨🏼‍🏫 Filosofía y patrones
 
 Qué hay que saber para programar tests.
@@ -6,15 +10,17 @@ Qué hay que saber para programar tests.
 
 ### 1️⃣ Mantra
 
-- **El código de prueba no es como el código de producción:** diséñalo para que sea simple, corto, sin abstracciones, agradable de leer. Uno debe mirar una prueba y obtener la intención al instante.
+- **El código de prueba no es como el código de producción.**
+
+- Simple, corto, sin abstracciones, fácil de entender.
 
 ---
 
 ### 2️⃣ Siglas y conceptos
 
-- **SUT**: _System (Subject) Under Test_. Lo que se está probando.
+- **SUT**: _System (Subject) Under Test_.
 
-- **DOCs**: _Depended On Components_. Lo que se necesita para que funcione el SUT.
+- **DOCs**: _Depended On Components_.
 
 ---
 
@@ -30,58 +36,58 @@ Qué hay que saber para programar tests.
 
 ### 4️⃣ Cuestiones: Given, Should, Actual, Expected.
 
-- **Given**: 📃 Texto. Condiciones de la prueba. _(Arrange)_
+- **Given**: 📃 Texto. Condiciones de la prueba.
 
 - **Should**: 📃 Texto. Funcionalidad esperada.
 
-- **Actual**: 🎰 Variable. El resultado obtenido. _(Act)_
+- **Actual**: 🎰 Variable. El resultado obtenido.
 
-- **Expected**: 💰 Variable. La respuesta esperada. _(Assert)_
-
----
-
-### 5️⃣ Test Doubles: Simuladores para no depender de las dependencias DOC.
-
-- **Dummy**: Datos requeridos para que el SUT funcione, pero que no se usan durante la prueba. _(Carga previa de una base de datos)_
-
-- **Stub**: Un objeto que cumpliendo una interfaz de un DOC tiene una respuesta constante y predeterminada. _(Responder como lo haría un llamada http)_
-
-- **Fake**: Un objeto que realiza una funcionalidad coherente pero simplificada de un DOC. _(Simular una base de datos en memoria)_
-
-- **Spy**: Cuenta las llamadas a una función o método. _(Comprobar que se ejecuta una acción un determinado número de veces)_
-
-- **Mock**: Monitoriza el uso de un objeto y las llamadas a una función junto con sus argumentos. _(Simular un envío de correo completo)_
+- **Expected**: 💰 Variable. La respuesta esperada.
 
 ---
 
-### 6️⃣ Comprobaciones: igualdad, existencia, comparación, pertenencia, excepciones y negación
+### 5️⃣ Test Doubles: Simuladores para no depender de las dependencias.
 
-- **igualdad**: El valor actual es igual al esperado.
+- **Dummy**: _(Carga previa de una base de datos)_
 
-- **existencia**: El valor actual existe.
+- **Stub**: _(Responder como lo haría un llamada http)_
 
-- **comparación**: El valor actual es mayor o menor que el esperado.
+- **Fake**: _(Simular una base de datos en memoria)_
 
-- **pertenencia**: El valor actual contiene o está contenido en el esperado.
+- **Spy**: _(Comprobar llamadas a funciones)_
 
-- **excepciones**: Se espera que una excepción sea lanzada.
+- **Mock**: _(Simular un envío de correo completo)_
 
-- **negación**: Niega cualquiera de los anteriores.
+---
+
+### 6️⃣ Comprobaciones:
+
+- **igualdad**
+
+- **existencia**
+
+- **comparación**
+
+- **pertenencia**
+
+- **excepciones**
+
+- **negación**
 
 ---
 
 ### 7️⃣ Consejos generales
 
-- **incorpora herramientas**: Puedes empezar de cero, pero hay muchas ayudas.
+- **incorpora herramientas**
 
-- **evita arreglos globales**: Cada prueba deber ser autónoma e independiente.
+- **evita arreglos globales**
 
-- **datos realistas en los fakes**: Nada de _foo_ _bar_ _baz_ _asdf_
+- **datos realistas en los fakes**
 
-- **usa etiquetas o códigos**: Útil para buscar resultados o pre filtrar pruebas.
+- **usa etiquetas o códigos**
 
-- **public black box**: Prueba los métodos públicos.
+- **public black box**
 
-- **evita los mocks**: Mejor usa _Stubs_ y _Spies_.
+- **evita los mocks**
 
-- **haz alguna prueba**: Esto no va de todo o nada.
+- **haz alguna prueba**
